@@ -1,0 +1,49 @@
+/* visores y flechas que conforman el carrusel */
+.visor {
+    width: 90%;
+    height: 750px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.divflecha {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.601);
+}
+
+.der {
+    left: 1420px;
+}
+
+.contflecha {
+    height: 200px;
+    width: 200px;
+}
+
+.mensaje {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    border: #358D9C solid 2px;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "vintage";
+    color: #358D9C;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0px;
+}

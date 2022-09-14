@@ -1,0 +1,12 @@
+/* elementos comunes a todas las paginas */
+@font-face {
+    font-family: "vintage";
+    src: url("../assets/fuentes/vintage.ttf");
+}
+
+body {
+    margin: 0px 100PX;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

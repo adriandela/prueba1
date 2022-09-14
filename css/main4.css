@@ -1,0 +1,61 @@
+h1 {
+    font-variant: small-caps;
+    font-family: "vintage";
+    font-size: 2.5em;
+    color: #358D9C;
+    text-align: center;
+}
+
+.contart1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.seleccionando {
+    width: 500px;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+/* esta clase da las propiedades para la tarjeta que por defecto tendrá las siguientes coincidiendo con los select */
+.visor {
+    width: 90%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url("../assets/imagenes/tarjeta1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seleccionando select {
+    width: 100%;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contimgfondos {
+    width: 30%;
+    height: 100px;
+
+}
+
+.contimgfondos img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.mensaje {
+    font-size: 3em;
+    font-family: "Vintage";
+    border: none;
+    color: black;
+    background-color: transparent;
+}

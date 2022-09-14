@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Cada página css referenciada aquí es importante y se ha hecho una para cada apartado de la página -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TARJETA</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main4.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/upscroll.css">
+    <link rel="shortcut icon" href="../assets/imagenes/ICONO1.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <!-- Logo para tener un acceso rapido a la pagina principal -->
+
+        <div class="contlogo"><a href="../index.html"><img class="contimg" src="../assets/imagenes/LOGO.png" alt=""></a>
+        </div>
+        <div class="dcenter">
+            <div class="contlupa">
+                <img class="contimg" src="../assets/imagenes/lupa.png" alt="">
+            </div>
+            <input type="search" placeholder="EJ: Rosas de San Valentín">
+        </div>
+        <div class="contimgright">
+            <!-- contmenu despliega el menu de la pagina que por defecto estará deshabilitado -->
+
+            <div class="contmenu">
+                <img id="menu" class="contimg" src="../assets/imagenes/menu.png" alt="">
+            </div>
+            <div class="contmenu">
+                <a href="../pages/registro.html"><img class="contimg" src="../assets/imagenes/registro.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <main id="main1">
+        <!-- contdesplegable esta deshabilitado por lo que solo se verá cuando se pulse el menu en el header -->
+
+        <div id="contdesplegable" class="contdesplegable">
+            <ul class="desplegable"><a href="../index.html">
+                    <li>HOME</li>
+                </a><a href="../pages/registro.html">
+                    <li>REGISTRO</li>
+                </a><a href="../pages/catalogo.html">
+                    <li>CATÁLOGO</li>
+                </a><a href="../pages/informacion.html">
+                    <li>INFORMACIÓN</li>
+                </a><a href="../pages/tarjeta.html">
+                    <li>TARJETAS</li>
+                </a></ul>
+            <div class="contcerrar"><img class="contimg" id="cerrarmenu" src="../assets/imagenes/cerrar.png"></div>
+        </div>
+        <!-- botón para subir al principio de la página -->
+
+        <div id="content">
+            <a class="upscroll" href="#main1">
+                <div class="contimgscrollup"><img class="contimg" src="../assets/imagenes/flechaarriba.png" alt="">
+                </div>
+            </a>
+            <h1>¡DISEÑA TU PROPIA TARJETA!</h1>
+            <!-- para crear la tarjeta se dispensa de un visor y he utilizado 2 select para elegir las fuentes y un contenedor de imagenes que se usaran como fondo todo ello con el script realizado para hacer la tarjeta -->
+            <section class="contart1">
+                <article class="seleccionando">
+                    <select class="seleccionar" name="Fuente" id="fuente">
+                        <option value="Vintage">Vintage</option>
+                        <option value="Arial">Arial</option>
+                        <option value="Calibri">Calibri</option>
+                        <option value="Cambria">Cambria</option>
+                    </select>
+                </article>
+                <article class="seleccionando">
+                    <select class="seleccionar" name="Colores" id="colores">
+
+                        <option value="black">Negro</option>
+                        <option value="blue">Azul</option>
+                        <option value="red">Rojo</option>
+                        <option value="white">Blanco</option>
+
+                    </select>
+                </article>
+                <article id="contimgfondos" class="seleccionando">
+
+                    <div class="contimgfondos"> <img class="fondos" src="../assets/imagenes/tarjeta1.png" alt="">
+                    </div>
+                    <div class="contimgfondos"> <img class="fondos" src="../assets/imagenes/tarjeta2.png" alt="">
+                    </div>
+                    <div class="contimgfondos"> <img class="fondos" src="../assets/imagenes/tarjeta3.png" alt="">
+                    </div>
+
+                </article>
+            </section>
+            <section>
+                <!-- este visor consta de un input de tipo texto que cogera las propiedades de os apartados anteriores con el script -->
+                <article id="visor" class="visor">
+                    <input class="mensaje" type="text" name="mensaje" id="mensaje"
+                        placeholder="Escribe tu mensaje aqui">
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="divfooter">
+            <!-- iframe del mapa con la ubicacion donde se encuentra la tienda -->
+
+            <p>¿No has escuchado hablar de nosotros todavía?</p>
+            <p>Haz click aquí:</p>
+            <a class="nomargenbottom" href="../pages/informacion.html">
+                <p class="nomargenbottom">SEED VILLAGE</p>
+            </a>
+        </div>
+        <div class="divfooter">
+            <a href="../index.html">
+                <div class="contlogo"><img class="contimg" src="../assets/imagenes/LOGO.png" alt=""></div>
+            </a>
+        </div>
+        <div class="divfooter">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24465.538292592366!2d-4.849193411488124!3d39.95945340378216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd401c8ed0fe010d%3A0x1a24f99d9c20899d!2s45600%20Talavera%20de%20la%20Reina%2C%20Toledo!5e0!3m2!1ses!2ses!4v1653260902441!5m2!1ses!2ses"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+</body>
+<!-- links a los scripts -->
+
+<script src="../js/header.js"></script>
+<script src="../js/main4.js"></script>
+
+</html>

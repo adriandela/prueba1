@@ -1,0 +1,113 @@
+h1 {
+    font-variant: small-caps;
+    font-family: "vintage";
+    font-size: 5em;
+    color: #358D9C;
+    text-align: center;
+}
+
+article {
+    width: 500px;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.imagen {
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* estas clases al pasar el cursor por encima podremos observar una interaccion que hace que se cambie las imagenes de la galeria de la pagina */
+.uno {
+    background-image: url("../assets/imagenes/flor1.jpg");
+}
+
+.uno:hover {
+    background-image: url("../assets/imagenes/uno.jpg");
+}
+
+.dos {
+    background-image: url("../assets/imagenes/flor2.jpg");
+}
+
+.dos:hover {
+    background-image: url("../assets/imagenes/dos.jpg");
+}
+
+.tres {
+    background-image: url("../assets/imagenes/flor3.jpg");
+}
+
+.tres:hover {
+    background-image: url("../assets/imagenes/tres.jpg");
+}
+
+.cuatro {
+    background-image: url("../assets/imagenes/flor4.jpg");
+}
+
+.cuatro:hover {
+    background-image: url("../assets/imagenes/cuatro.jpg");
+}
+
+.cinco {
+    background-image: url("../assets/imagenes/flor5.jpg");
+}
+
+.cinco:hover {
+    background-image: url("../assets/imagenes/cinco.jpg");
+}
+
+.seis {
+    background-image: url("../assets/imagenes/flor6.jpg");
+}
+
+.seis:hover {
+    background-image: url("../assets/imagenes/seis.jpg");
+}
+
+.imagen:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 4em;
+    font-family: "Vintage";
+    color: #358D9C;
+}
+
+table {
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+td {
+    text-align: center;
+    width: 150px;
+}
+
+.titulos {
+    font-size: 2em;
+}
+
+.abierto {
+    font-size: 1.5em;
+    font-weight: bold;
+}

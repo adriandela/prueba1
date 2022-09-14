@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Cada página css referenciada aquí es importante y se ha hecho una para cada apartado de la página -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main2.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/upscroll.css">
+    <link rel="shortcut icon" href="../assets/imagenes/ICONO1.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <!-- Logo para tener un acceso rapido a la pagina principal -->
+
+        <div class="contlogo"><a href="../index.html"><img class="contimg" src="../assets/imagenes/LOGO.png" alt=""></a>
+        </div>
+        <div class="dcenter">
+            <div class="contlupa">
+                <img class="contimg" src="../assets/imagenes/lupa.png" alt="">
+            </div>
+            <input type="search" placeholder="EJ: Rosas de San Valentín">
+        </div>
+        <div class="contimgright">
+            <!-- contmenu despliega el menu de la pagina que por defecto estará deshabilitado -->
+
+            <div class="contmenu">
+                <img id="menu" class="contimg" src="../assets/imagenes/menu.png" alt="">
+            </div>
+            <div class="contmenu">
+                <a href="../pages/registro.html"><img class="contimg" src="../assets/imagenes/registro.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <main id="main1">
+        <!-- contdesplegable esta deshabilitado por lo que solo se verá cuando se pulse el menu en el header -->
+
+        <div id="contdesplegable" class="contdesplegable">
+            <ul class="desplegable"><a href="../index.html">
+                    <li>HOME</li>
+                </a><a href="../pages/registro.html">
+                    <li>REGISTRO</li>
+                </a><a href="../pages/catalogo.html">
+                    <li>CATÁLOGO</li>
+                </a><a href="../pages/informacion.html">
+                    <li>INFORMACIÓN</li>
+                </a><a href="../pages/tarjeta.html">
+                    <li>TARJETAS</li>
+                </a></ul>
+            <div class="contcerrar"><img class="contimg" id="cerrarmenu" src="../assets/imagenes/cerrar.png"></div>
+        </div>
+        <!-- botón para subir al principio de la página -->
+
+        <div id="content">
+            <a class="upscroll" href="#main1">
+                <div class="contimgscrollup"><img class="contimg" src="../assets/imagenes/flechaarriba.png" alt="">
+                </div>
+            </a>
+            <!-- un formulario sencillo maquetado con css el cual tiene un boton que con el script linkado geja ver un mensaje para los terminos y condiciones -->
+            <form action="">
+                <div>
+                    <h1>Nombre y Apellidos</h1>
+                    <input class="inputgrande" type="text" placeholder="Nombre y apellidos">
+                </div>
+                <div class="cont2input">
+                    <div>
+                        <h2>Población</h2>
+                        <input type="text" placeholder="Población">
+                    </div>
+                    <div>
+                        <h2 class="h2select">Provincia</h2>
+                        <select required name="provincia" class="form-control">
+                            <option value="Provincia" selected>Provincia</option>
+                            <option value="Álava/Araba">Álava/Araba</option>
+                            <option value="Albacete">Albacete</option>
+                            <option value="Alicante">Alicante</option>
+                            <option value="Almería">Almería</option>
+                            <option value="Asturias">Asturias</option>
+                            <option value="Ávila">Ávila</option>
+                            <option value="Badajoz">Badajoz</option>
+                            <option value="Baleares">Baleares</option>
+                            <option value="Barcelona">Barcelona</option>
+                            <option value="Burgos">Burgos</option>
+                            <option value="Cáceres">Cáceres</option>
+                            <option value="Cádiz">Cádiz</option>
+                            <option value="Cantabria">Cantabria</option>
+                            <option value="Castellón">Castellón</option>
+                            <option value="Ceuta">Ceuta</option>
+                            <option value="Ciudad Real">Ciudad Real</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Cuenca">Cuenca</option>
+                            <option value="Gerona/Girona">Gerona/Girona</option>
+                            <option value="Granada">Granada</option>
+                            <option value="Guadalajara">Guadalajara</option>
+                            <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+                            <option value="Huelva">Huelva</option>
+                            <option value="Huesca">Huesca</option>
+                            <option value="Jaén">Jaén</option>
+                            <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+                            <option value="La Rioja">La Rioja</option>
+                            <option value="Las Palmas">Las Palmas</option>
+                            <option value="León">León</option>
+                            <option value="Lérida/Lleida">Lérida/Lleida</option>
+                            <option value="Lugo">Lugo</option>
+                            <option value="Madrid">Madrid</option>
+                            <option value="Málaga">Málaga</option>
+                            <option value="Melilla">Melilla</option>
+                            <option value="Murcia">Murcia</option>
+                            <option value="Navarra">Navarra</option>
+                            <option value="Orense/Ourense">Orense/Ourense</option>
+                            <option value="Palencia">Palencia</option>
+                            <option value="Pontevedra">Pontevedra</option>
+                            <option value="Salamanca">Salamanca</option>
+                            <option value="Segovia">Segovia</option>
+                            <option value="Sevilla">Sevilla</option>
+                            <option value="Soria">Soria</option>
+                            <option value="Tarragona">Tarragona</option>
+                            <option value="Tenerife">Tenerife</option>
+                            <option value="Teruel">Teruel</option>
+                            <option value="Toledo">Toledo</option>
+                            <option value="Valencia">Valencia</option>
+                            <option value="Valladolid">Valladolid</option>
+                            <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+                            <option value="Zamora">Zamora</option>
+                            <option value="Zaragoza">Zaragoza</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <h2>Dirección</h2>
+                    <input class="inputgrande" type="text" placeholder="Dirección">
+                </div>
+                <div>
+                    <h2>Correo</h2>
+                    <input class="inputgrande" type="text" placeholder="Correo">
+                </div>
+                <div class="cont2input">
+                    <div>
+                        <h2>Usuario</h2>
+                        <input type="text" placeholder="Usuario">
+                    </div>
+                    <div>
+                        <h2>Contraseña</h2>
+                        <input type="password" placeholder="*********">
+                    </div>
+                </div>
+                <div class="contsubmit">
+                    <button id="registro">
+                        <p id="registro">Registrarse Gratis</p>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="divfooter">
+            <p>¿No has escuchado hablar de nosotros todavía?</p>
+            <p>Haz click aquí:</p>
+            <a class="nomargenbottom" href="../pages/informacion.html">
+                <p class="nomargenbottom">SEED VILLAGE</p>
+            </a>
+        </div>
+        <div class="divfooter">
+            <a href="../index.html">
+                <div class="contlogo"><img class="contimg" src="../assets/imagenes/LOGO.png" alt=""></div>
+            </a>
+        </div>
+        <div class="divfooter">
+            <!-- iframe del mapa con la ubicacion donde se encuentra la tienda -->
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24465.538292592366!2d-4.849193411488124!3d39.95945340378216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd401c8ed0fe010d%3A0x1a24f99d9c20899d!2s45600%20Talavera%20de%20la%20Reina%2C%20Toledo!5e0!3m2!1ses!2ses!4v1653260902441!5m2!1ses!2ses"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+</body>
+<!-- links a los scripts -->
+
+<script src="../js/header.js"></script>
+<script src="../js/main2.js"></script>
+
+</html>

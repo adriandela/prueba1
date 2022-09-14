@@ -1,0 +1,195 @@
+.divvisor2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.maindiv1 {
+    width: 800px;
+    margin-top: 50px;
+}
+
+.maindiv2 {
+    width: 800px;
+}
+
+.maindiv2 img {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1em;
+    color: #358D9C;
+    font-family: "vintage";
+}
+
+h2 {
+    font-size: 1em;
+    color: #358D9C;
+}
+
+.inputgrande {
+    width: 100%;
+    height: 30px;
+    background-color: #EBECED;
+    border: 1px solid #EBECED;
+    border-bottom: 1px solid gray;
+}
+
+main input::placeholder {
+    color: #358D9C;
+    font-size: 1.3rem;
+    font-variant: small-caps;
+}
+
+div input:focus {
+    color: #358D9C;
+    outline: none;
+    font-variant: small-caps;
+    outline: #358D9C 3px solid;
+}
+
+.cont2input {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.cont2input div {
+    width: 48%;
+}
+
+.cont2input div input {
+    width: 100%;
+    height: 30px;
+    background-color: #EBECED;
+    border: 1px solid #EBECED;
+    border-bottom: 1px solid gray;
+}
+
+.cont2input div select {
+    width: 100%;
+    height: 30px;
+    background-color: #EBECED;
+    border: 1px solid #EBECED;
+    border-bottom: 1px solid gray;
+    color: #358D9C;
+    font-size: 1.3rem;
+    font-variant: small-caps;
+}
+
+.h2select {
+    padding-bottom: 4px;
+}
+
+.fechanaranja {
+    color: #358D9C;
+    text-transform: uppercase;
+}
+
+.contcheckbox {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.contsubmit {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.contsubmit button:hover {
+    background-color: #358D9C;
+    color: white;
+}
+
+.contsubmit button {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #358D9C;
+    border-radius: 5px;
+    color: #358D9C;
+    font-size: 1.3rem;
+    font-variant: small-caps;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside2 {
+    height: 800px;
+    width: 15%;
+    background-color: white;
+}
+
+.main2 {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    background-color: #EBECED;
+}
+
+main div {
+    margin-bottom: 40px;
+}
+
+/* esta clase no se puede encontrar en el main principal ya que es añadida con el script de la pagina */
+.terminosycondiciones {
+    position: absolute;
+    background-color: white;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+    border: 2px solid #358D9C;
+    padding: 5px;
+    border-radius: 10px;
+    left: 450px;
+}
+
+.marcar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.marcar input {
+    height: 30px;
+    width: 30px;
+}
+
+.continuar {
+    width: 200px;
+    height: 100px;
+}
+
+.contmensaje {
+    position: absolute;
+    width: 1700px;
+    height: 650px;
+    background-color: rgba(128, 128, 128, 0.21);
+}
+
+.felicidades {
+    font-size: 0.8em;
+    color: #358D9C;
+    font-family: "vintage";
+    font-weight: bold;
+}
+
+.enlacepprinc {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #358D9C;
+    font-weight: bold;
+}
